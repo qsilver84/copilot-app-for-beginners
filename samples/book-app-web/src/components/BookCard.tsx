@@ -11,7 +11,7 @@ export function BookCard({ book }: BookCardProps) {
       <div className="book-card__header">
         <div>
           <p className="book-card__genre">{book.genre}</p>
-          <h2>{book.title}</h2>
+          <h3>{book.title}</h3>
         </div>
         {book.isFavorite && (
           <span className="book-card__favorite" aria-label="Favorite book">
